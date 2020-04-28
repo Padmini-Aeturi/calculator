@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>calculator</title>
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    </head>
+<body id="calci">
+    <form>
+        <div id="margin">
+        <div id="container">    
+        <input id="text" type="text"><br><br>    
+        </div>
+        <div id="button">    
+        <input id="button0" type="button" onclick="myfunc(this.id);" value=0>
+        <input id="button1" type="button" onclick="myfunc(this.id);" value=1>    
+        <input id="button2" type="button" onclick="myfunc(this.id);" value=2>
+        <input id="button3" type="button" onclick="myfunc(this.id);" value=3>
+        <input id="buttonac" type="reset" value="AC">
+        <br><br>    
+        <input id="button4" type="button" onclick="myfunc(this.id);" value=4>
+        <input id="button5" type="button" onclick="myfunc(this.id);" value=5>
+        <input id="button6" type="button" onclick="myfunc(this.id);" value=6>    
+        <input id="button7" type="button" onclick="myfunc(this.id);" value=7>  
+        <input id="button8" type="button" onclick="myfunc(this.id);" value=8>
+        <br><br>    
+        <input id="button9" type="button" onclick="myfunc(this.id);" value=9>
+        <input id="button/" type="button" value="/" onclick="myfunc(this.id);">
+        <input id="button+" type="button" onclick="myfunc(this.id);" value="+"> 
+        <input id="button-" type="button" onclick="myfunc(this.id);" value="-">
+        <input id="button*" type="button" onclick="myfunc(this.id);" value="*">
+            <br><br>
+        <input id="button=" type="button" onclick="calculate();" value="=">
+        </div>
+        </div>
+    </form>
+    <script  src="logic.js" type="text/javascript">
+    </script>
+    </body>    
+</html>

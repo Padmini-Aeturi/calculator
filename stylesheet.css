@@ -1,0 +1,42 @@
+#calci
+{  
+    margin:1px;
+    padding:200px 100px 200px;
+    background-image:url(pooh.jpg);
+    border:solid 1px;
+
+}
+#margin
+{   width:400px;
+    margin:1px;
+    padding:10px;
+    border:solid 1px;
+    background-color:greenyellow;
+    text-align:center;
+    border-radius:40px;
+}
+#button input
+{
+ width:70px;
+ height:70px;
+ color:darkmagenta;
+ font-size:20px;   
+ border-radius:20px;    
+}
+
+#container input
+{
+    height:70px;
+    width: 370px;
+    border:solid 3px;
+    color:black;
+    font-size: 70px;
+    border-radius:20px;
+}
+#button input:hover{
+background-color:aquamarine;}
+#text
+{
+ color:black;
+ font-size:70px; 
+}
